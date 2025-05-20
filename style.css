@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+--primary-color: #0a3075;
+--secundary-color: #9109c7;
+--text-color: #3191d1;
+--background: #a31818;
+--button-hover: #0bd6cc;
+--font-body:Roboto "Condensed sans", serif
+--font-titulo"Oswald", serif; 
+}
+
+/* reset */ 
+*{
+    margin:0;
+    apdding:0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+/*corpo da pagina*/
+body{
+    background-color: var(--background-color);
+    color:var(--text-color);
+    line-height:1.6;
+}
+
+h3{
+    margin-top: 25px;
+}
+p{
+    margin-top: 20px;
+}
+img{
+    max-width: 90%px;
+}
+/*cabeçalho*/
+head{
+    background-color:var(--background-color);
+    color:rgb(8, 30, 78) 
+    text - center;  
+    padding:22px
+}
